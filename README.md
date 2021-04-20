@@ -5,7 +5,7 @@ This class allows you to pack variables into a byte array, and unpack variables 
 This can be used in a variety of ways, the original intended usage being for networking and RPCs.
 Currently this only supports floats, integers, strings, and booleans.
 
-Thanks for choosing ByteMessage, and goodluck on your ventures!
+I used this method to send data between client and server for an auto updating tool years ago, and needed a similar use for networking in a Unity game so I wrote this. It uses nothing more than System.cs so it is applicable anywhere.
 
 # Usage
 Initialize your ByteMessage with
