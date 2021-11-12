@@ -1,4 +1,4 @@
-# byte-message / Packet
+# byte-message / byte-packet
 Update: A revised class "Packet.cs" has been written for my Swordfish library. See Packet.cs and PacketExample.cs (or the code below)
 
 Easy to use tool to (un)pack variables in a byte array. Intended for sending data in networked applications and games.
