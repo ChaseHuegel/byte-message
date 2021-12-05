@@ -21,6 +21,10 @@ public class Packet
 
     public Packet() { }
 
+    //  Casting to/from byte array
+    public static implicit operator Packet(byte[] data) => new Packet(data);
+    public static implicit operator byte[](Packet packet) => packet.GetBytes();
+
     /// <returns>new <typeparamref name="byte"/> array from the data in <paramref name="this"/></returns>
     public byte[] GetBytes() => data.ToArray();
 
